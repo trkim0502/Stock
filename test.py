@@ -1,5 +1,5 @@
 # from slacker import Slacker
-# slack = Slacker('xoxb-4947569513265-4958633042928-HCxyX9ALDVhFocM8K2XyIcSY')
+# slack = Slacker('')
 
 # Send a message to #general channel
 # slack.chat.post_message('#stockbot', '삼성전자 매도호가 : ' + str(offer))
@@ -16,7 +16,7 @@ def post_message(token, channel, text):
     )
     print(response)
  
-myToken = "xoxb-4947569513265-4958633042928-HCxyX9ALDVhFocM8K2XyIcSY"
+myToken = ""
  
 
 # 연결 여부 체크
